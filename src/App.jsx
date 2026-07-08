@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { AppRoutes } from './routes/AppRoutes'
 import { useStore } from './store/useStore'
+import { ErrorBoundary } from './components/ui/ErrorBoundary'
 
 export const App = () => {
   const checkSession = useStore(s => s.checkSession)
@@ -17,8 +18,10 @@ export const App = () => {
   }, [user])
 
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <ErrorBoundary message="Application failed to initialize. Please refresh the page.">
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </ErrorBoundary>
   )
 }

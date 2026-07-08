@@ -1,47 +1,43 @@
+import { generateAllergenWarning, generatePriceDropAlert, generateWeeklyInsight, generateBadgeAlert } from '../../services/notificationService'
+
 export const createNotificationSlice = (set, get) => ({
   notifications: [
     {
-      id: 'notif-1',
-      type: 'allergen',
-      title: 'Allergen Alert',
-      message: 'Aspartame detected! This may affect your brain and kidneys.',
-      timestamp: new Date(Date.now() - 3600000).toISOString(),
-      read: false,
-      severity: 'high'
+      id: 'notif-1', type: 'allergen', title: '⚠️ Allergen Alert',
+      message: 'Aspartame detected! This artificial sweetener may affect your brain and kidneys.',
+      timestamp: new Date(Date.now() - 3600000).toISOString(), read: false, severity: 'high'
     },
     {
-      id: 'notif-2',
-      type: 'price_drop',
-      title: 'Price Drop!',
+      id: 'notif-2', type: 'price_drop', title: '💵 Price Drop!',
       message: 'Organic Quinoa is now $2.99 at Walmart (25% off)',
-      timestamp: new Date(Date.now() - 7200000).toISOString(),
-      read: false,
-      severity: 'low'
+      timestamp: new Date(Date.now() - 7200000).toISOString(), read: false, severity: 'low'
     },
     {
-      id: 'notif-3',
-      type: 'insight',
-      title: 'Weekly Insight',
+      id: 'notif-3', type: 'insight', title: '📊 Weekly Insight',
       message: 'You scanned 12 products this week. Your average hazard score decreased by 8%!',
-      timestamp: new Date(Date.now() - 86400000).toISOString(),
-      read: true,
-      severity: 'low'
+      timestamp: new Date(Date.now() - 86400000).toISOString(), read: true, severity: 'low'
     },
     {
-      id: 'notif-4',
-      type: 'badge',
-      title: 'Badge Unlocked!',
+      id: 'notif-4', type: 'badge', title: '🏆 Badge Unlocked!',
       message: 'You earned the "Clean Eater" badge for scanning 10 clean products.',
-      timestamp: new Date(Date.now() - 172800000).toISOString(),
-      read: true,
-      severity: 'low'
+      timestamp: new Date(Date.now() - 172800000).toISOString(), read: true, severity: 'low'
+    },
+    {
+      id: 'notif-5', type: 'new_product', title: '🆕 New in Database',
+      message: 'Organic Quinoa has been updated with enhanced nutritional data.',
+      timestamp: new Date(Date.now() - 259200000).toISOString(), read: true, severity: 'low'
     }
   ],
   unreadCount: 2,
 
   addNotification: (notification) => {
     set(state => {
-      const notif = { id: `notif-${Date.now()}`, timestamp: new Date().toISOString(), read: false, ...notification }
+      const notif = {
+        id: `notif-${Date.now()}`,
+        timestamp: new Date().toISOString(),
+        read: false,
+        ...notification
+      }
       return { notifications: [notif, ...state.notifications], unreadCount: state.unreadCount + 1 }
     })
   },
@@ -60,5 +56,37 @@ export const createNotificationSlice = (set, get) => ({
     }))
   },
 
-  clearAll: () => set({ notifications: [], unreadCount: 0 })
+  clearAll: () => set({ notifications: [], unreadCount: 0 }),
+
+  pushAllergenAlert: (allergen, organs, severity) => {
+    const notif = generateAllergenWarning(allergen, organs, severity)
+    set(state => ({
+      notifications: [notif, ...state.notifications],
+      unreadCount: state.unreadCount + 1
+    }))
+  },
+
+  pushPriceAlert: (productName, storeName, oldPrice, newPrice) => {
+    const notif = generatePriceDropAlert(productName, storeName, oldPrice, newPrice)
+    set(state => ({
+      notifications: [notif, ...state.notifications],
+      unreadCount: state.unreadCount + 1
+    }))
+  },
+
+  pushWeeklyInsight: (scans, hazardChange) => {
+    const notif = generateWeeklyInsight(scans, hazardChange)
+    set(state => ({
+      notifications: [notif, ...state.notifications],
+      unreadCount: state.unreadCount + 1
+    }))
+  },
+
+  pushBadgeAlert: (badgeName) => {
+    const notif = generateBadgeAlert(badgeName)
+    set(state => ({
+      notifications: [notif, ...state.notifications],
+      unreadCount: state.unreadCount + 1
+    }))
+  }
 })

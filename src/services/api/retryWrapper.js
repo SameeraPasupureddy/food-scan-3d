@@ -1,19 +1,23 @@
-import { API_TIMEOUT, RETRY_MAX } from '../../utils/constants'
-
-export const fetchWithRetry = async (url, options = {}, retries = RETRY_MAX) => {
-  const controller = new AbortController()
-  const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT)
-
-  for (let attempt = 1; attempt <= retries; attempt++) {
+export const exponentialBackoff = async (fn, maxRetries = 3, baseDelay = 500) => {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      const response = await fetch(url, { ...options, signal: controller.signal })
-      clearTimeout(timeoutId)
-      if (!response.ok) throw new Error(`HTTP ${response.status}`)
-      return await response.json()
+      return await fn()
     } catch (err) {
-      clearTimeout(timeoutId)
-      if (attempt === retries) throw err
-      await new Promise(r => setTimeout(r, Math.pow(2, attempt) * 500))
+      if (attempt === maxRetries) throw err
+      const jitter = Math.random() * baseDelay
+      const delay = Math.min(baseDelay * Math.pow(2, attempt - 1) + jitter, 10000)
+      await new Promise(r => setTimeout(r, delay))
     }
   }
+}
+
+export const withTimeout = (promise, ms = 8000) => {
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), ms)
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => {
+      setTimeout(() => reject(new Error(`Operation timed out after ${ms}ms`)), ms)
+    })
+  ]).finally(() => clearTimeout(timeout))
 }

@@ -25,6 +25,7 @@ body {
   background: #0B0F19;
   color: #E2E8F0;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::-webkit-scrollbar { width: 6px; }
@@ -32,22 +33,134 @@ body {
 ::-webkit-scrollbar-thumb { background: #1C2840; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #243454; }
 
-.glow-cyan { box-shadow: 0 0 20px rgba(0, 240, 255, 0.15); }
-.glow-red { box-shadow: 0 0 20px rgba(255, 0, 64, 0.2); }
-.glow-green { box-shadow: 0 0 20px rgba(0, 255, 136, 0.15); }
-.glow-gold { box-shadow: 0 0 20px rgba(255, 215, 0, 0.15); }
-
-@keyframes pulse-hazard {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+::selection {
+  background: rgba(0, 240, 255, 0.2);
+  color: #E2E8F0;
 }
 
-.animate-pulse-hazard {
-  animation: pulse-hazard 1.5s ease-in-out infinite;
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(15, 21, 32, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(28, 40, 64, 0.5);
+}
+
+.glass-strong {
+  background: rgba(11, 15, 25, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(36, 52, 84, 0.4);
+}
+
+.glow-cyan { box-shadow: 0 0 20px rgba(0, 240, 255, 0.15), 0 0 40px rgba(0, 240, 255, 0.05); }
+.glow-red { box-shadow: 0 0 20px rgba(255, 0, 64, 0.2), 0 0 40px rgba(255, 0, 64, 0.05); }
+.glow-green { box-shadow: 0 0 20px rgba(0, 255, 136, 0.15), 0 0 40px rgba(0, 255, 136, 0.05); }
+.glow-gold { box-shadow: 0 0 20px rgba(255, 215, 0, 0.15), 0 0 40px rgba(255, 215, 0, 0.05); }
+.glow-purple { box-shadow: 0 0 20px rgba(139, 92, 246, 0.15), 0 0 40px rgba(139, 92, 246, 0.05); }
+
+/* Animations */
+@keyframes pulse-hazard {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-pulse-hazard { animation: pulse-hazard 1.5s ease-in-out infinite; }
+.animate-fade-in { animation: fade-in 0.3s ease-out; }
+.animate-slide-in-left { animation: slide-in-left 0.3s ease-out; }
+.animate-scale-in { animation: scale-in 0.2s ease-out; }
+.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #00F0FF, #8B5CF6);
+  background: linear-gradient(135deg, #00F0FF, #8B5CF6, #FF0040);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #00F0FF, #3B82F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Micro-interactions */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 240, 255, 0.08);
+}
+
+.hover-glow {
+  transition: box-shadow 0.3s ease;
+}
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.1);
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #151E2C 25%, #1C2840 50%, #151E2C 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.2s ease;
+}
+.card-hover:hover {
+  border-color: rgba(0, 240, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 240, 255, 0.05);
+}
+
+/* Scrollbar hide */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
 }
