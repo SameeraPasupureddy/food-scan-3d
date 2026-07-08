@@ -1,0 +1,12 @@
+[
+  { "id": "nutr-001", "productId": "prod-001", "calories": 210, "protein": 5, "carbs": 32, "fat": 7, "fiber": 3, "sugar": 12, "sodium": 85, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 2, "B12": 0, "iron": 6, "calcium": 2 }, "servingSize": "50g" },
+  { "id": "nutr-002", "productId": "prod-002", "calories": 10, "protein": 0, "carbs": 2, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 200, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 0, "B12": 0, "iron": 0, "calcium": 0 }, "servingSize": "355ml" },
+  { "id": "nutr-003", "productId": "prod-003", "calories": 95, "protein": 0.5, "carbs": 25, "fat": 0.3, "fiber": 4, "sugar": 19, "sodium": 2, "vitamins": { "A": 2, "C": 14, "D": 0, "E": 0, "B12": 0, "iron": 1, "calcium": 1 }, "servingSize": "182g" },
+  { "id": "nutr-004", "productId": "prod-004", "calories": 290, "protein": 14, "carbs": 21, "fat": 16, "fiber": 1, "sugar": 1, "sodium": 580, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 0, "B12": 2, "iron": 4, "calcium": 1 }, "servingSize": "100g" },
+  { "id": "nutr-005", "productId": "prod-005", "calories": 222, "protein": 8, "carbs": 39, "fat": 3.6, "fiber": 5, "sugar": 0.9, "sodium": 7, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 0, "B12": 0, "iron": 8, "calcium": 3 }, "servingSize": "100g" },
+  { "id": "nutr-006", "productId": "prod-006", "calories": 0, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 10, "servingSize": "355ml" },
+  { "id": "nutr-007", "productId": "prod-007", "calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "fiber": 0, "sugar": 0, "sodium": 74, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 0, "B12": 5, "iron": 6, "calcium": 1 }, "servingSize": "100g" },
+  { "id": "nutr-008", "productId": "prod-008", "calories": 2, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 0, "vitamins": { "A": 0, "C": 4, "D": 0, "E": 0, "B12": 0, "iron": 0, "calcium": 0 }, "servingSize": "240ml" },
+  { "id": "nutr-009", "productId": "prod-009", "calories": 250, "protein": 20, "carbs": 12, "fat": 14, "fiber": 5, "sugar": 2, "sodium": 440, "vitamins": { "A": 0, "C": 0, "D": 0, "E": 2, "B12": 0, "iron": 15, "calcium": 4 }, "servingSize": "113g" },
+  { "id": "nutr-010", "productId": "prod-010", "calories": 536, "protein": 7, "carbs": 49, "fat": 35, "fiber": 4, "sugar": 2, "sodium": 430, "vitamins": { "A": 0, "C": 20, "D": 0, "E": 0, "B12": 0, "iron": 2, "calcium": 1 }, "servingSize": "100g" }
+]

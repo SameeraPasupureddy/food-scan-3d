@@ -1,0 +1,10 @@
+[
+  { "id": "disease-001", "name": "Non-alcoholic fatty liver disease", "organId": "liver", "severity": "high", "description": "Accumulation of fat in the liver not caused by alcohol, linked to high fructose and processed food consumption.", "prevalence": "25% of adults" },
+  { "id": "disease-002", "name": "Type 2 Diabetes", "organId": "kidneys", "severity": "high", "description": "Chronic condition affecting sugar metabolism, strongly linked to ultra-processed food diets.", "prevalence": "10% of adults" },
+  { "id": "disease-003", "name": "Chronic Kidney Disease", "organId": "kidneys", "severity": "high", "description": "Progressive loss of kidney function, exacerbated by high sodium and preservative intake.", "prevalence": "15% of adults" },
+  { "id": "disease-004", "name": "Hypertension", "organId": "heart", "severity": "high", "description": "High blood pressure strongly linked to excessive sodium and processed food consumption.", "prevalence": "45% of adults" },
+  { "id": "disease-005", "name": "Migraines", "organId": "brain", "severity": "medium", "description": "Severe headaches triggered by certain food additives including MSG, aspartame, and artificial colors.", "prevalence": "12% of adults" },
+  { "id": "disease-006", "name": "Gastritis", "organId": "stomach", "severity": "medium", "description": "Inflammation of the stomach lining, aggravated by preservatives and acidic additives.", "prevalence": "20% of adults" },
+  { "id": "disease-007", "name": "Irritable Bowel Syndrome", "organId": "stomach", "severity": "medium", "description": "Chronic gut condition triggered by emulsifiers and artificial additives.", "prevalence": "15% of adults" },
+  { "id": "disease-008", "name": "Asthma", "organId": "lungs", "severity": "medium", "description": "Respiratory condition linked to sulfite preservatives and certain food dyes.", "prevalence": "8% of adults" }
+]

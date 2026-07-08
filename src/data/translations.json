@@ -1,0 +1,16 @@
+{
+  "en": { "_langName": "English", "_flag": "🇺🇸" },
+  "es": { "_langName": "Español", "_flag": "🇪🇸" },
+  "fr": { "_langName": "Français", "_flag": "🇫🇷" },
+  "de": { "_langName": "Deutsch", "_flag": "🇩🇪" },
+  "it": { "_langName": "Italiano", "_flag": "🇮🇹" },
+  "pt": { "_langName": "Português", "_flag": "🇵🇹" },
+  "ru": { "_langName": "Русский", "_flag": "🇷🇺" },
+  "ja": { "_langName": "日本語", "_flag": "🇯🇵" },
+  "ko": { "_langName": "한국어", "_flag": "🇰🇷" },
+  "zh": { "_langName": "中文", "_flag": "🇨🇳" },
+  "ar": { "_langName": "العربية", "_flag": "🇸🇦" },
+  "hi": { "_langName": "हिन्दी", "_flag": "🇮🇳" },
+  "languageNames": ["English","Español","Français","Deutsch","Italiano","Português","Русский","日本語","한국어","中文","العربية","हिन्दी"],
+  "languageCodes": ["en","es","fr","de","it","pt","ru","ja","ko","zh","ar","hi"]
+}

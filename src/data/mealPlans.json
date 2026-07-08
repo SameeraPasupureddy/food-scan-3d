@@ -1,0 +1,65 @@
+[
+  {
+    "day": "Monday",
+    "meals": [
+      { "type": "breakfast", "name": "Overnight Oats with Berries", "recipe": "Mix oats, almond milk, chia seeds. Top with fresh blueberries and strawberries.", "ingredients": ["Rolled oats", "Almond milk", "Chia seeds", "Blueberries", "Strawberries", "Maple syrup"], "nutrition": { "calories": 320, "protein": 10, "carbs": 52, "fat": 8 } },
+      { "type": "lunch", "name": "Grilled Chicken Salad", "recipe": "Grilled chicken breast over mixed greens with cherry tomatoes, cucumber, and balsamic vinaigrette.", "ingredients": ["Chicken breast", "Mixed greens", "Cherry tomatoes", "Cucumber", "Balsamic vinegar", "Olive oil"], "nutrition": { "calories": 420, "protein": 38, "carbs": 12, "fat": 24 } },
+      { "type": "dinner", "name": "Quinoa Stir-Fry", "recipe": "Sauté bell peppers, broccoli, and carrots. Mix with cooked quinoa and soy sauce.", "ingredients": ["Quinoa", "Bell peppers", "Broccoli", "Carrots", "Soy sauce", "Garlic", "Ginger", "Sesame oil"], "nutrition": { "calories": 450, "protein": 16, "carbs": 65, "fat": 14 } },
+      { "type": "snack", "name": "Apple Slices with Almond Butter", "recipe": "Slice a fresh apple and serve with 2 tbsp almond butter.", "ingredients": ["Apple", "Almond butter"], "nutrition": { "calories": 200, "protein": 5, "carbs": 28, "fat": 9 } }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "meals": [
+      { "type": "breakfast", "name": "Green Smoothie Bowl", "recipe": "Blend spinach, banana, mango, and coconut water. Top with granola and hemp seeds.", "ingredients": ["Spinach", "Banana", "Mango", "Coconut water", "Granola", "Hemp seeds"], "nutrition": { "calories": 350, "protein": 9, "carbs": 58, "fat": 10 } },
+      { "type": "lunch", "name": "Lentil Soup", "recipe": "Simmer red lentils with carrots, celery, onion, and vegetable broth.", "ingredients": ["Red lentils", "Carrots", "Celery", "Onion", "Vegetable broth", "Garlic", "Cumin", "Turmeric"], "nutrition": { "calories": 380, "protein": 18, "carbs": 58, "fat": 6 } },
+      { "type": "dinner", "name": "Baked Salmon with Asparagus", "recipe": "Season salmon with lemon, herbs, and olive oil. Bake with asparagus spears.", "ingredients": ["Salmon fillet", "Asparagus", "Lemon", "Olive oil", "Dill", "Garlic", "Salt", "Pepper"], "nutrition": { "calories": 520, "protein": 42, "carbs": 8, "fat": 35 } },
+      { "type": "snack", "name": "Greek Yogurt with Honey", "recipe": "Plain Greek yogurt drizzled with honey and topped with walnuts.", "ingredients": ["Greek yogurt", "Honey", "Walnuts"], "nutrition": { "calories": 180, "protein": 15, "carbs": 14, "fat": 7 } }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "meals": [
+      { "type": "breakfast", "name": "Avocado Toast with Egg", "recipe": "Mash avocado on whole grain toast, top with poached egg and red pepper flakes.", "ingredients": ["Whole grain bread", "Avocado", "Egg", "Red pepper flakes", "Lemon juice", "Salt"], "nutrition": { "calories": 380, "protein": 16, "carbs": 30, "fat": 22 } },
+      { "type": "lunch", "name": "Turkey Wrap", "recipe": "Whole wheat wrap with turkey, lettuce, tomato, and honey mustard.", "ingredients": ["Whole wheat wrap", "Turkey breast", "Lettuce", "Tomato", "Honey mustard", "Avocado"], "nutrition": { "calories": 400, "protein": 30, "carbs": 35, "fat": 16 } },
+      { "type": "dinner", "name": "Vegetable Curry", "recipe": "Chickpeas, sweet potatoes, and spinach in coconut curry sauce.", "ingredients": ["Chickpeas", "Sweet potato", "Spinach", "Coconut milk", "Curry paste", "Onion", "Garlic", "Rice"], "nutrition": { "calories": 490, "protein": 15, "carbs": 72, "fat": 16 } },
+      { "type": "snack", "name": "Carrot Sticks with Hummus", "recipe": "Fresh carrot sticks served with roasted red pepper hummus.", "ingredients": ["Carrots", "Hummus", "Red pepper"], "nutrition": { "calories": 150, "protein": 5, "carbs": 18, "fat": 7 } }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "meals": [
+      { "type": "breakfast", "name": "Berry Protein Pancakes", "recipe": "Oat flour pancakes with whey protein, topped with mixed berries.", "ingredients": ["Oat flour", "Protein powder", "Eggs", "Mixed berries", "Banana", "Maple syrup"], "nutrition": { "calories": 420, "protein": 28, "carbs": 48, "fat": 12 } },
+      { "type": "lunch", "name": "Mediterranean Bowl", "recipe": "Quinoa base with chickpeas, olives, feta, cucumber, tomato, and tzatziki.", "ingredients": ["Quinoa", "Chickpeas", "Olives", "Feta cheese", "Cucumber", "Tomato", "Tzatziki"], "nutrition": { "calories": 460, "protein": 18, "carbs": 48, "fat": 22 } },
+      { "type": "dinner", "name": "Lean Beef Stir-Fry", "recipe": "Thinly sliced sirloin with bok choy, snap peas, and ginger soy sauce.", "ingredients": ["Sirloin beef", "Bok choy", "Snap peas", "Ginger", "Soy sauce", "Sesame oil", "Garlic", "Rice"], "nutrition": { "calories": 510, "protein": 40, "carbs": 42, "fat": 18 } },
+      { "type": "snack", "name": "Mixed Nuts", "recipe": "Handful of almonds, walnuts, and cashews.", "ingredients": ["Almonds", "Walnuts", "Cashews"], "nutrition": { "calories": 180, "protein": 6, "carbs": 6, "fat": 16 } }
+    ]
+  },
+  {
+    "day": "Friday",
+    "meals": [
+      { "type": "breakfast", "name": "Tofu Scramble", "recipe": "Crumbled tofu sautéed with turmeric, onion, bell pepper, and spinach.", "ingredients": ["Tofu", "Turmeric", "Onion", "Bell pepper", "Spinach", "Nutritional yeast", "Salt"], "nutrition": { "calories": 300, "protein": 20, "carbs": 14, "fat": 18 } },
+      { "type": "lunch", "name": "Tuna Salad Lettuce Wraps", "recipe": "Canned tuna mixed with Greek yogurt, celery, and herbs in lettuce cups.", "ingredients": ["Canned tuna", "Greek yogurt", "Celery", "Lettuce", "Dijon mustard", "Lemon", "Herbs"], "nutrition": { "calories": 340, "protein": 35, "carbs": 10, "fat": 18 } },
+      { "type": "dinner", "name": "Homemade Veggie Pizza", "recipe": "Whole wheat crust with tomato sauce, mozzarella, mushrooms, bell peppers, and olives.", "ingredients": ["Whole wheat dough", "Tomato sauce", "Mozzarella", "Mushrooms", "Bell peppers", "Olives", "Basil"], "nutrition": { "calories": 550, "protein": 24, "carbs": 62, "fat": 22 } },
+      { "type": "snack", "name": "Dark Chocolate Square", "recipe": "2 squares of 70% dark chocolate.", "ingredients": ["Dark chocolate 70%"], "nutrition": { "calories": 120, "protein": 2, "carbs": 10, "fat": 8 } }
+    ]
+  },
+  {
+    "day": "Saturday",
+    "meals": [
+      { "type": "breakfast", "name": "Egg White Omelette", "recipe": "Egg white omelette with mushrooms, spinach, and low-fat cheese.", "ingredients": ["Egg whites", "Mushrooms", "Spinach", "Low-fat cheese", "Onion", "Salt", "Pepper"], "nutrition": { "calories": 280, "protein": 30, "carbs": 8, "fat": 14 } },
+      { "type": "lunch", "name": "Black Bean Tacos", "recipe": "Corn tortillas with black beans, salsa, avocado, and cilantro.", "ingredients": ["Corn tortillas", "Black beans", "Avocado", "Salsa", "Cilantro", "Lime", "Lettuce"], "nutrition": { "calories": 420, "protein": 14, "carbs": 58, "fat": 16 } },
+      { "type": "dinner", "name": "Grilled Shrimp Skewers", "recipe": "Marinated shrimp skewers grilled with zucchini and bell pepper.", "ingredients": ["Shrimp", "Zucchini", "Bell pepper", "Olive oil", "Garlic", "Lemon", "Herbs", "Rice"], "nutrition": { "calories": 460, "protein": 35, "carbs": 38, "fat": 16 } },
+      { "type": "snack", "name": "Frozen Grapes", "recipe": "Frozen red grapes for a refreshing treat.", "ingredients": ["Red grapes"], "nutrition": { "calories": 100, "protein": 1, "carbs": 24, "fat": 0 } }
+    ]
+  },
+  {
+    "day": "Sunday",
+    "meals": [
+      { "type": "breakfast", "name": "Chia Pudding", "recipe": "Chia seeds soaked in coconut milk overnight with vanilla and maple syrup.", "ingredients": ["Chia seeds", "Coconut milk", "Vanilla extract", "Maple syrup", "Mango"], "nutrition": { "calories": 360, "protein": 8, "carbs": 38, "fat": 20 } },
+      { "type": "lunch", "name": "Roasted Vegetable Bowl", "recipe": "Roasted sweet potato, Brussels sprouts, and chickpeas over quinoa with tahini.", "ingredients": ["Sweet potato", "Brussels sprouts", "Chickpeas", "Quinoa", "Tahini", "Olive oil", "Garlic"], "nutrition": { "calories": 480, "protein": 16, "carbs": 62, "fat": 20 } },
+      { "type": "dinner", "name": "Herb-Roasted Chicken", "recipe": "Roasted chicken thigh with rosemary, thyme, and roasted root vegetables.", "ingredients": ["Chicken thigh", "Carrots", "Potatoes", "Rosemary", "Thyme", "Olive oil", "Garlic", "Onion"], "nutrition": { "calories": 540, "protein": 38, "carbs": 34, "fat": 26 } },
+      { "type": "snack", "name": "Rice Cakes with Avocado", "recipe": "Brown rice cakes topped with mashed avocado and everything seasoning.", "ingredients": ["Brown rice cakes", "Avocado", "Everything seasoning", "Lime"], "nutrition": { "calories": 160, "protein": 3, "carbs": 18, "fat": 9 } }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "store-001", "name": "Whole Foods", "type": "Premium", "locations": ["Downtown", "Uptown", "Suburb West"], "priceLevel": "$$$", "organic": true },
+  { "id": "store-002", "name": "Trader Joe's", "type": "Mid-range", "locations": ["Downtown", "Midtown", "East Side"], "priceLevel": "$$", "organic": true },
+  { "id": "store-003", "name": "Walmart", "type": "Discount", "locations": ["West End", "South Park", "Northgate"], "priceLevel": "$", "organic": false },
+  { "id": "store-004", "name": "Kroger", "type": "Mid-range", "locations": ["Riverside", "Oakwood", "Maple Street"], "priceLevel": "$$", "organic": false },
+  { "id": "store-005", "name": "Target", "type": "Mid-range", "locations": ["City Center", "Brooklyn Ave", "Lakeview"], "priceLevel": "$$", "organic": false },
+  { "id": "store-006", "name": "Costco", "type": "Wholesale", "locations": ["Industrial Blvd", "Eastgate"], "priceLevel": "$$", "organic": true },
+  { "id": "store-007", "name": "7-Eleven", "type": "Convenience", "locations": ["Corner Main", "Highway 9", "Downtown"], "priceLevel": "$$", "organic": false }
+]

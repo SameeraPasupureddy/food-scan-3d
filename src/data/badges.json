@@ -1,0 +1,14 @@
+[
+  { "id": "badge-001", "name": "First Scan", "icon": "🔍", "description": "Scan your first product", "pointsRequired": 10, "category": "scanning" },
+  { "id": "badge-002", "name": "Label Reader", "icon": "📋", "description": "Scan 10 products", "pointsRequired": 100, "category": "scanning" },
+  { "id": "badge-003", "name": "Health Investigator", "icon": "🔬", "description": "Scan 50 products", "pointsRequired": 500, "category": "scanning" },
+  { "id": "badge-004", "name": "Clean Eater", "icon": "🌱", "description": "Scan 10 clean products (score > 80)", "pointsRequired": 250, "category": "sustainability" },
+  { "id": "badge-005", "name": "Streak Starter", "icon": "🔥", "description": "Maintain a 3-day scan streak", "pointsRequired": 30, "category": "streak" },
+  { "id": "badge-006", "name": "Week Warrior", "icon": "⚡", "description": "Maintain a 7-day scan streak", "pointsRequired": 70, "category": "streak" },
+  { "id": "badge-007", "name": "Month Master", "icon": "🏆", "description": "Maintain a 30-day scan streak", "pointsRequired": 300, "category": "streak" },
+  { "id": "badge-008", "name": "Eco Champion", "icon": "♻️", "description": "Find 5 eco-friendly alternatives", "pointsRequired": 200, "category": "sustainability" },
+  { "id": "badge-009", "name": "Community Star", "icon": "⭐", "description": "Leave 20 product reviews", "pointsRequired": 200, "category": "community" },
+  { "id": "badge-010", "name": "Nutrition Expert", "icon": "🧠", "description": "Complete 30-day meal plan", "pointsRequired": 500, "category": "mealplan" },
+  { "id": "badge-011", "name": "Budget Saver", "icon": "💰", "description": "Save $50 on alternative products", "pointsRequired": 400, "category": "pricing" },
+  { "id": "badge-012", "name": "BioScan Elite", "icon": "👑", "description": "Reach level 7", "pointsRequired": 5000, "category": "milestone" }
+]

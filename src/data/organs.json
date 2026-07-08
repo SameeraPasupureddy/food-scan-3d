@@ -1,0 +1,56 @@
+[
+  {
+    "id": "brain",
+    "name": "Brain",
+    "system": "Nervous System",
+    "description": "The control center of the body. Many food additives can cross the blood-brain barrier and affect neurotransmitter function, leading to headaches, cognitive decline, and mood disorders.",
+    "diseases": ["Migraines", "Cognitive decline", "ADD/ADHD symptoms", "Anxiety", "Depression", "Neurotoxicity"],
+    "position": { "x": 0, "y": 1.6, "z": 0 },
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "liver",
+    "name": "Liver",
+    "system": "Digestive System",
+    "description": "The body's primary detoxification organ. Processes chemicals, preservatives, and additives. Overexposure can overwhelm liver function and lead to fatty liver disease and toxicity.",
+    "diseases": ["Non-alcoholic fatty liver disease", "Liver toxicity", "Cirrhosis", "Hepatitis", "Liver cancer"],
+    "position": { "x": 0.35, "y": 0.4, "z": 0.2 },
+    "color": "#FF8C00"
+  },
+  {
+    "id": "kidneys",
+    "name": "Kidneys",
+    "system": "Urinary System",
+    "description": "Filter waste products and toxins from the blood. Artificial additives and high sodium levels put significant strain on kidney function over time.",
+    "diseases": ["Chronic kidney disease", "Kidney stones", "Hypertension", "Renal failure", "Electrolyte imbalance"],
+    "position": { "x": -0.25, "y": 0.3, "z": -0.15 },
+    "color": "#00F0FF"
+  },
+  {
+    "id": "stomach",
+    "name": "Stomach",
+    "system": "Digestive System",
+    "description": "The first major digestive organ where food breakdown begins. Harsh additives and preservatives can irritate the stomach lining and disrupt the gut microbiome.",
+    "diseases": ["Gastritis", "Acid reflux", "Peptic ulcers", "Irritable bowel syndrome", "Gastric cancer"],
+    "position": { "x": -0.15, "y": 0.1, "z": 0.3 },
+    "color": "#FFD700"
+  },
+  {
+    "id": "heart",
+    "name": "Heart",
+    "system": "Cardiovascular System",
+    "description": "Pumps blood throughout the body. High sodium, caffeine, and certain preservatives can elevate blood pressure and strain cardiovascular function.",
+    "diseases": ["Hypertension", "Arrhythmia", "Heart disease", "Stroke", "Cardiomyopathy"],
+    "position": { "x": 0, "y": 0.5, "z": 0.1 },
+    "color": "#FF0040"
+  },
+  {
+    "id": "lungs",
+    "name": "Lungs",
+    "system": "Respiratory System",
+    "description": "Responsible for oxygen exchange. Certain food chemicals and preservatives can trigger inflammatory responses affecting respiratory health.",
+    "diseases": ["Asthma", "Bronchitis", "Inflammation", "Reduced lung function"],
+    "position": { "x": 0.2, "y": 0.8, "z": 0 },
+    "color": "#3B82F6"
+  }
+]

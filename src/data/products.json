@@ -1,0 +1,239 @@
+[
+  {
+    "id": "prod-001",
+    "barcode": "4901234567890",
+    "name": "Organic Granola Bar",
+    "brand": "NatureFuel",
+    "category": "snacks",
+    "image": "https://images.unsplash.com/photo-1622485831942-c84e0f0c9a1b?w=400",
+    "ingredients": [
+      { "name": "Oats", "type": "whole", "risk": "low", "purpose": "Base grain", "affectedOrgans": [] },
+      { "name": "Honey", "type": "whole", "risk": "low", "purpose": "Natural sweetener", "affectedOrgans": [] },
+      { "name": "High Fructose Corn Syrup", "type": "additive", "risk": "medium", "purpose": "Sweetener", "affectedOrgans": ["liver", "kidneys"] },
+      { "name": "Soy Lecithin", "type": "additive", "risk": "low", "purpose": "Emulsifier", "affectedOrgans": [] },
+      { "name": "Natural Flavors", "type": "additive", "risk": "low", "purpose": "Flavoring", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 210, "protein": 5, "carbs": 32, "fat": 7, "fiber": 3, "sugar": 12, "sodium": 85, "servingSize": "50g" },
+    "certifications": ["organic", "gmo_free"],
+    "sustainability": { "score": 78, "carbonFootprint": 1.2, "waterUsage": 450, "packaging": "Recyclable paper" },
+    "prices": [
+      { "store": "Whole Foods", "price": 4.99, "date": "2026-06-01" },
+      { "store": "Trader Joe's", "price": 3.99, "date": "2026-06-15" },
+      { "store": "Walmart", "price": 3.49, "date": "2026-06-20" }
+    ],
+    "averageRating": 4.3,
+    "reviewCount": 128,
+    "alternatives": ["prod-003", "prod-005"]
+  },
+  {
+    "id": "prod-002",
+    "barcode": "4801234567890",
+    "name": "Sugar-Free Energy Drink",
+    "brand": "VoltX",
+    "category": "beverages",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400",
+    "ingredients": [
+      { "name": "Carbonated Water", "type": "whole", "risk": "low", "purpose": "Base", "affectedOrgans": [] },
+      { "name": "Aspartame", "type": "additive", "risk": "medium", "purpose": "Artificial sweetener", "affectedOrgans": ["brain", "kidneys"] },
+      { "name": "Caffeine", "type": "additive", "risk": "medium", "purpose": "Stimulant", "affectedOrgans": ["brain", "heart"] },
+      { "name": "Sodium Benzoate", "type": "additive", "risk": "high", "purpose": "Preservative", "affectedOrgans": ["liver", "kidneys"] },
+      { "name": "Red 40", "type": "additive", "risk": "medium", "purpose": "Artificial color", "affectedOrgans": ["brain"] }
+    ],
+    "nutrition": { "calories": 10, "protein": 0, "carbs": 2, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 200, "servingSize": "355ml" },
+    "certifications": ["vegan"],
+    "sustainability": { "score": 42, "carbonFootprint": 3.8, "waterUsage": 890, "packaging": "Aluminum can" },
+    "prices": [
+      { "store": "7-Eleven", "price": 2.99, "date": "2026-06-10" },
+      { "store": "Walmart", "price": 2.49, "date": "2026-06-18" }
+    ],
+    "averageRating": 3.1,
+    "reviewCount": 89,
+    "alternatives": ["prod-006", "prod-008"]
+  },
+  {
+    "id": "prod-003",
+    "barcode": "7891234567890",
+    "name": "Organic Apple",
+    "brand": "Fresh Farms",
+    "category": "produce",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400",
+    "ingredients": [
+      { "name": "Apple", "type": "whole", "risk": "low", "purpose": "Whole food", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 95, "protein": 0.5, "carbs": 25, "fat": 0.3, "fiber": 4, "sugar": 19, "sodium": 2, "servingSize": "182g" },
+    "certifications": ["organic", "gmo_free", "fair_trade"],
+    "sustainability": { "score": 95, "carbonFootprint": 0.3, "waterUsage": 125, "packaging": "None (bulk)" },
+    "prices": [
+      { "store": "Whole Foods", "price": 1.49, "date": "2026-06-01" },
+      { "store": "Trader Joe's", "price": 0.99, "date": "2026-06-15" },
+      { "store": "Walmart", "price": 0.79, "date": "2026-06-20" }
+    ],
+    "averageRating": 4.8,
+    "reviewCount": 312,
+    "alternatives": []
+  },
+  {
+    "id": "prod-004",
+    "barcode": "6901234567890",
+    "name": "Frozen Chicken Nuggets",
+    "brand": "QuickEats",
+    "category": "frozen",
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400",
+    "ingredients": [
+      { "name": "Chicken Breast", "type": "whole", "risk": "low", "purpose": "Protein source", "affectedOrgans": [] },
+      { "name": "Wheat Flour", "type": "whole", "risk": "low", "purpose": "Breading", "affectedOrgans": [] },
+      { "name": "Monosodium Glutamate", "type": "additive", "risk": "medium", "purpose": "Flavor enhancer", "affectedOrgans": ["brain", "stomach"] },
+      { "name": "TBHQ", "type": "additive", "risk": "high", "purpose": "Preservative", "affectedOrgans": ["liver", "kidneys", "stomach"] },
+      { "name": "Disodium Inosinate", "type": "additive", "risk": "medium", "purpose": "Flavor enhancer", "affectedOrgans": ["brain"] },
+      { "name": "Natural Flavors", "type": "additive", "risk": "low", "purpose": "Flavoring", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 290, "protein": 14, "carbs": 21, "fat": 16, "fiber": 1, "sugar": 1, "sodium": 580, "servingSize": "100g" },
+    "certifications": [],
+    "sustainability": { "score": 45, "carbonFootprint": 4.2, "waterUsage": 2300, "packaging": "Plastic bag" },
+    "prices": [
+      { "store": "Walmart", "price": 5.99, "date": "2026-06-10" },
+      { "store": "Kroger", "price": 6.49, "date": "2026-06-15" },
+      { "store": "Target", "price": 5.79, "date": "2026-06-22" }
+    ],
+    "averageRating": 3.5,
+    "reviewCount": 201,
+    "alternatives": ["prod-007", "prod-009"]
+  },
+  {
+    "id": "prod-005",
+    "barcode": "8901234567890",
+    "name": "Organic Quinoa",
+    "brand": "TerraViva",
+    "category": "grains",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400",
+    "ingredients": [
+      { "name": "Organic Quinoa", "type": "whole", "risk": "low", "purpose": "Whole grain", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 222, "protein": 8, "carbs": 39, "fat": 3.6, "fiber": 5, "sugar": 0.9, "sodium": 7, "servingSize": "100g" },
+    "certifications": ["organic", "gmo_free", "fair_trade", "vegan"],
+    "sustainability": { "score": 88, "carbonFootprint": 0.8, "waterUsage": 350, "packaging": "Cardboard box" },
+    "prices": [
+      { "store": "Whole Foods", "price": 4.99, "date": "2026-06-01" },
+      { "store": "Trader Joe's", "price": 3.99, "date": "2026-06-14" },
+      { "store": "Costco", "price": 6.99, "date": "2026-06-20" }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 178,
+    "alternatives": []
+  },
+  {
+    "id": "prod-006",
+    "barcode": "5701234567890",
+    "name": "Sparkling Water",
+    "brand": "PureBubbles",
+    "category": "beverages",
+    "image": "https://images.unsplash.com/photo-1559839916-b82f5b0b1a4f?w=400",
+    "ingredients": [
+      { "name": "Carbonated Water", "type": "whole", "risk": "low", "purpose": "Base", "affectedOrgans": [] },
+      { "name": "Citric Acid", "type": "additive", "risk": "low", "purpose": "Acidity regulator", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 0, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 10, "servingSize": "355ml" },
+    "certifications": ["vegan", "gmo_free"],
+    "sustainability": { "score": 72, "carbonFootprint": 1.5, "waterUsage": 1200, "packaging": "Aluminum can" },
+    "prices": [
+      { "store": "Walmart", "price": 1.29, "date": "2026-06-10" },
+      { "store": "Target", "price": 1.49, "date": "2026-06-18" }
+    ],
+    "averageRating": 4.1,
+    "reviewCount": 56,
+    "alternatives": []
+  },
+  {
+    "id": "prod-007",
+    "barcode": "7401234567890",
+    "name": "Organic Chicken Breast",
+    "brand": "GreenPasture",
+    "category": "meat",
+    "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400",
+    "ingredients": [
+      { "name": "Organic Chicken Breast", "type": "whole", "risk": "low", "purpose": "Protein source", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "fiber": 0, "sugar": 0, "sodium": 74, "servingSize": "100g" },
+    "certifications": ["organic", "gmo_free"],
+    "sustainability": { "score": 62, "carbonFootprint": 3.1, "waterUsage": 1800, "packaging": "Recyclable tray" },
+    "prices": [
+      { "store": "Whole Foods", "price": 8.99, "date": "2026-06-01" },
+      { "store": "Kroger", "price": 6.99, "date": "2026-06-15" }
+    ],
+    "averageRating": 4.4,
+    "reviewCount": 94,
+    "alternatives": []
+  },
+  {
+    "id": "prod-008",
+    "barcode": "8711234567890",
+    "name": "Green Tea",
+    "brand": "ZenLeaf",
+    "category": "beverages",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400",
+    "ingredients": [
+      { "name": "Green Tea Leaves", "type": "whole", "risk": "low", "purpose": "Base ingredient", "affectedOrgans": [] },
+      { "name": "Natural Caffeine", "type": "additive", "risk": "low", "purpose": "Natural stimulant", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 2, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugar": 0, "sodium": 0, "servingSize": "240ml" },
+    "certifications": ["organic", "vegan", "gmo_free"],
+    "sustainability": { "score": 85, "carbonFootprint": 0.5, "waterUsage": 200, "packaging": "Cardboard box" },
+    "prices": [
+      { "store": "Whole Foods", "price": 3.49, "date": "2026-06-01" },
+      { "store": "Walmart", "price": 2.49, "date": "2026-06-10" }
+    ],
+    "averageRating": 4.7,
+    "reviewCount": 203,
+    "alternatives": []
+  },
+  {
+    "id": "prod-009",
+    "barcode": "6909876543210",
+    "name": "Veggie Burger",
+    "brand": "PlantFuel",
+    "category": "frozen",
+    "image": "https://images.unsplash.com/photo-1585238342029-dc4c66e9b5f6?w=400",
+    "ingredients": [
+      { "name": "Pea Protein", "type": "whole", "risk": "low", "purpose": "Protein source", "affectedOrgans": [] },
+      { "name": "Brown Rice", "type": "whole", "risk": "low", "purpose": "Binder", "affectedOrgans": [] },
+      { "name": "Methylcellulose", "type": "additive", "risk": "low", "purpose": "Binder", "affectedOrgans": [] },
+      { "name": "Natural Flavors", "type": "additive", "risk": "low", "purpose": "Flavoring", "affectedOrgans": [] }
+    ],
+    "nutrition": { "calories": 250, "protein": 20, "carbs": 12, "fat": 14, "fiber": 5, "sugar": 2, "sodium": 440, "servingSize": "113g" },
+    "certifications": ["vegan", "gmo_free"],
+    "sustainability": { "score": 82, "carbonFootprint": 1.1, "waterUsage": 400, "packaging": "Recyclable box" },
+    "prices": [
+      { "store": "Whole Foods", "price": 5.99, "date": "2026-06-01" },
+      { "store": "Target", "price": 4.99, "date": "2026-06-15" }
+    ],
+    "averageRating": 4.2,
+    "reviewCount": 145,
+    "alternatives": []
+  },
+  {
+    "id": "prod-010",
+    "barcode": "5901234567890",
+    "name": "Salted Potato Chips",
+    "brand": "CrunchCo",
+    "category": "snacks",
+    "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400",
+    "ingredients": [
+      { "name": "Potatoes", "type": "whole", "risk": "low", "purpose": "Base vegetable", "affectedOrgans": [] },
+      { "name": "Vegetable Oil", "type": "whole", "risk": "low", "purpose": "Frying medium", "affectedOrgans": [] },
+      { "name": "Salt", "type": "additive", "risk": "medium", "purpose": "Seasoning", "affectedOrgans": ["kidneys", "heart"] },
+      { "name": "TBHQ", "type": "additive", "risk": "high", "purpose": "Preservative", "affectedOrgans": ["liver", "stomach"] },
+      { "name": "MSG", "type": "additive", "risk": "medium", "purpose": "Flavor enhancer", "affectedOrgans": ["brain"] }
+    ],
+    "nutrition": { "calories": 536, "protein": 7, "carbs": 49, "fat": 35, "fiber": 4, "sugar": 2, "sodium": 430, "servingSize": "100g" },
+    "certifications": ["vegan"],
+    "sustainability": { "score": 35, "carbonFootprint": 2.8, "waterUsage": 600, "packaging": "Plastic bag" },
+    "prices": [
+      { "store": "Walmart", "price": 3.49, "date": "2026-06-10" },
+      { "store": "7-Eleven", "price": 4.29, "date": "2026-06-15" },
+      { "store": "Kroger", "price": 3.79, "date": "2026-06-20" }
+    ],
+    "averageRating": 3.8,
+    "reviewCount": 267,
+    "alternatives": ["prod-001", "prod-005"]
+  }
+]
